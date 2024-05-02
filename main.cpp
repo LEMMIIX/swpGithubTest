@@ -13,7 +13,8 @@ int main() {
 	Professor ahlf("Henning Ahlf");
 	ahlf.setLehrstelle("Wirtschaftsinformatik, insb. Digitales Marketing");
 
-
+	Professor dunkel("Kolja Dunkel");
+	dunkel.setLehrstelle("Betriebswirtschaftslehre, insb. Entrepreneurship und Innovation");
 
 
 
@@ -22,7 +23,7 @@ int main() {
 
 	std::cout << lennart.gibName() << ": " << lennart.gibPosition() << ", " << lennart.gibStudiengang() << std::endl;
 	std::cout << ahlf.gibName() << ": " << ahlf.gibPosition() << ", " << ahlf.gibLehrstelle() << std::endl;
-
+	std::cout << dunkel.gibName() << ": " << dunkel.gibPosition() << ", " << dunkel.gibLehrstelle() << std::endl;
 
 
 
